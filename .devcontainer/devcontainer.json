@@ -1,0 +1,19 @@
+{
+  "name": "Multi-Repo Codespace",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "github/*": {
+          "permissions": {
+            "contents": "write",
+            "issues": "write",
+            "pull_requests": "write",
+            "discussions": "write",
+            "statuses": "read",
+            "actions": "read"
+          }
+        }
+      }
+    }
+  }
+}
